@@ -1,0 +1,78 @@
+@font-face {
+   font-family: k1;
+   src: url(../css/fonts/ka1.ttf);
+}
+div.menu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    
+  }
+  
+  div.menu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: k1;
+
+  }
+  
+  div.menu a:hover {
+    background-color: #777;
+  }
+
+h1{
+    position: absolute;
+    text-align: center;
+    font-family: k1;
+    background-color: #333;
+    color: white;
+    left: 400px;
+    width: 600px;
+    letter-spacing: 10px;
+} 
+
+#login{
+    margin-top: 100px;
+flex-direction:column;
+text-align: center;
+justify-content: center;
+padding: 50px;
+} 
+
+#registrarse{
+    margin-top: 100px;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    padding: 55px;  
+} 
+img{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 500px;
+   text-align: center;
+   justify-content: center;
+} 
+div.mapa{
+    margin-top: 100px;
+    text-align: center;
+} 
+
+label{
+    background-color: black ;
+    color: white;
+    font-family: k1;
+}
+
+body{
+    background-image: url(../img/fondo.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+} 
