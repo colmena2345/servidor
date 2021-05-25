@@ -8,7 +8,7 @@ const connectToMongoDB = async () =>{
             console.log('Connected to mongodb!')
 
             const user ={
-                email: 'tes@email.comt',
+                email: 'testito@email.comt',
                 username: 'Maiku',
                 password: 'Almi123'
             }
