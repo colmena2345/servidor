@@ -8,8 +8,8 @@ const connectToMongoDB = async () =>{
             console.log('Connected to mongodb!')
 
             const user ={
-                email: 'test@email.comt',
-                username: 'Maiku',
+                email: 'testprueba@email.comt',
+                username: 'Maikumike',
                 password: 'Almi123'
             }
             await new userSchema(user).save() 
@@ -21,7 +21,7 @@ const connectToMongoDB = async () =>{
 connectToMongoDB()
 Db.collection('test').insertOne(
    {
-       testid : 500,
+       testid : 4,
        testname: "test53523"
    } 
 );
