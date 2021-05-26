@@ -10,7 +10,7 @@ const connectToMongoDB = async () =>{
             const user ={
                 email: 'testprueba@email.comt',
                 username: 'Maikumike',
-                password: 'Almi123'
+                password: 'Almi123qwerqwrqwer'
             }
             await new userSchema(user).save() 
         }   finally{
